@@ -22,7 +22,7 @@ The code I released here into the public domain may appear in third-party projec
 
 ### List of all challenges I solved in C
 
-1. [00004 Median of Two Sorted Arrays - Hard](https://leetcode.com/problems/median-of-two-sorted-arrays/description/) - Solution: [median_of_two_sorted_arrays.c](https://github.com/hapepo23/leetcode-c-challenges/blob/master/median_of_two_sorted_arrays.c)
-1. [00008 String to Integer (atoi) - Medium](https://leetcode.com/problems/string-to-integer-atoi/description/) - Solution: [string_to_integer.c](https://github.com/hapepo23/leetcode-c-challenges/blob/master/string_to_integer.c)
+1. [#4 - Hard - Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/description/) - Solution: [median_of_two_sorted_arrays.c](https://github.com/hapepo23/leetcode-c-challenges/blob/master/median_of_two_sorted_arrays.c)
+1. [#8 - Medium - String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/description/) - Solution: [string_to_integer.c](https://github.com/hapepo23/leetcode-c-challenges/blob/master/string_to_integer.c)
 
 -----
