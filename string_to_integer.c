@@ -1,5 +1,5 @@
 /*
-00008 String to Integer (atoi) <medium>
+00008 String to Integer (atoi) - Medium
 https://leetcode.com/problems/string-to-integer-atoi/description/
 */
 
