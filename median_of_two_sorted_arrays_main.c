@@ -1,6 +1,5 @@
 /*
-Hard
-00004 Median of Two Sorted Arrays
+00004 Median of Two Sorted Arrays <hard>
 https://leetcode.com/problems/median-of-two-sorted-arrays/description/
 */
 
