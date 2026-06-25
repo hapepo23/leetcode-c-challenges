@@ -23,6 +23,7 @@ The code I released here into the public domain may appear in third-party projec
 ### List of all challenges I solved in C
 
 1. [#0001 - Easy - Two Sum](https://leetcode.com/problems/two-sum/description/) - Solution: [two_sum.c](https://github.com/hapepo23/leetcode-c-challenges/blob/master/two_sum.c)
+1. [#0002 - Medium - Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/) - Solution: [add_two_numbers.c](https://github.com/hapepo23/leetcode-c-challenges/blob/master/add_two_numbers.c)
 1. [#0004 - Hard - Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/description/) - Solution: [median_of_two_sorted_arrays.c](https://github.com/hapepo23/leetcode-c-challenges/blob/master/median_of_two_sorted_arrays.c)
 1. [#0008 - Medium - String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/description/) - Solution: [string_to_integer.c](https://github.com/hapepo23/leetcode-c-challenges/blob/master/string_to_integer.c)
 1. [#0011 - Medium - Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/) - Solution: [container_with_most_water.c](https://github.com/hapepo23/leetcode-c-challenges/blob/master/container_with_most_water.c)
