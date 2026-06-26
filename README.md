@@ -30,5 +30,6 @@ The code I released here into the public domain may appear in third-party projec
 1. [#0008 - Medium - String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/description/) - Solution: [string_to_integer.c](https://github.com/hapepo23/leetcode-c-challenges/blob/master/string_to_integer.c)
 1. [#0011 - Medium - Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/) - Solution: [container_with_most_water.c](https://github.com/hapepo23/leetcode-c-challenges/blob/master/container_with_most_water.c)
 1. [#0014 - Easy - Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/description/) - Solution: [longest_common_prefix.c](https://github.com/hapepo23/leetcode-c-challenges/blob/master/longest_common_prefix.c)
+1. [#0026 - Easy - Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/) - Solution: [remove_duplicates_from_sorted_array.c](https://github.com/hapepo23/leetcode-c-challenges/blob/master/remove_duplicates_from_sorted_array.c)
 
 -----
