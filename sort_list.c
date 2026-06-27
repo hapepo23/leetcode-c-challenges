@@ -11,7 +11,9 @@ struct ListNode {
 };
 
 static int compare(const void* a, const void* b) {
-  return *(int*)a - *(int*)b;
+  int x = *(int*)a;
+  int y = *(int*)b;
+  return (x > y) - (x < y);
 }
 
 struct ListNode* sortList(struct ListNode* head) {
@@ -27,24 +29,14 @@ struct ListNode* sortList(struct ListNode* head) {
     p = head;
     while (p != NULL) {
       vector[i++] = p->val;
-      struct ListNode* nx = p->next;
-      free(p);
-      p = nx;
+      p = p->next;
     }
     qsort(vector, node_count, sizeof(int), compare);
-    struct ListNode* newlist = NULL;
-    struct ListNode* last = NULL;
+    p = head;
     for (int i = 0; i < node_count; i++) {
-      struct ListNode* temp = malloc(sizeof(struct ListNode));
-      temp->val = vector[i];
-      temp->next = NULL;
-      if (newlist == NULL)
-        newlist = temp;
-      else
-        last->next = temp;
-      last = temp;
+      p->val = vector[i];
+      p = p->next;
     }
-    head = newlist;
   }
   return head;
 }

@@ -11,7 +11,9 @@ typedef struct {
 } NumEntry;
 
 static int compare(const void* a, const void* b) {
-  return ((NumEntry*)a)->value - ((NumEntry*)b)->value;
+  int x = ((NumEntry*)a)->value;
+  int y = ((NumEntry*)b)->value;
+  return (x > y) - (x < y);
 }
 
 int* twoSum(int* nums, int numsSize, int target, int* returnSize) {
