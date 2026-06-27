@@ -1,6 +1,6 @@
 /*
-#0002 - Medium - Add Two Numbers
-https://leetcode.com/problems/add-two-numbers/description/
+#0019 - Medium - Remove Nth Node From End of List
+https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/
 */
 
 #include <stdio.h>
@@ -12,7 +12,7 @@ struct ListNode {
   struct ListNode* next;
 };
 
-struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2);
+struct ListNode* removeNthFromEnd(struct ListNode* head, int n);
 
 static struct ListNode* createListFromArray(int length, int* array) {
   struct ListNode* newlist = NULL;
@@ -55,30 +55,25 @@ char* listToString(struct ListNode* list) {
   return s;
 }
 
-static void do_test(int* a1, int a1size, int* a2, int a2size, char* expected) {
-  struct ListNode* l1 = createListFromArray(a1size, a1);
-  struct ListNode* l2 = createListFromArray(a2size, a2);
-  struct ListNode* l3 = addTwoNumbers(l1, l2);
-  char* actual = listToString(l3);
-  char* sl1 = listToString(l1);
-  char* sl2 = listToString(l2);
-  printf("List1   : %s\n", sl1);
-  printf("List2   : %s\n", sl2);
-  printf("Expected: %s\n", expected);
-  printf("Actual  : %s\n", actual);
+static void do_test(int* a, int asize, int n, char* expected) {
+  struct ListNode* head = createListFromArray(asize, a);
+  char* shead = listToString(head);
+  struct ListNode* lresult = removeNthFromEnd(head, n);
+  char* actual = listToString(lresult);
+  printf("List          : %s\n", shead);
+  printf("Node# from end: %d\n", n);
+  printf("Expected      : %s\n", expected);
+  printf("Actual        : %s\n", actual);
   printf("-> %s\n\n", strcmp(actual, expected) == 0 ? "OK" : "FAIL");
   free(actual);
-  free(sl1);
-  free(sl2);
-  freeList(l1);
-  freeList(l2);
-  freeList(l3);
+  free(shead);
+  freeList(lresult);
 }
 
 int main(void) {
-  do_test((int[]){2, 4, 3}, 3, (int[]){5, 6, 4}, 3, "7 -> 0 -> 8");
-  do_test((int[]){0}, 1, (int[]){0}, 1, "0");
-  do_test((int[]){9, 9, 9, 9, 9, 9, 9}, 7, (int[]){9, 9, 9, 9}, 4,
-          "8 -> 9 -> 9 -> 9 -> 0 -> 0 -> 0 -> 1");
+  do_test((int[]){1, 2, 3, 4, 5}, 5, 2, "1 -> 2 -> 3 -> 5");
+  do_test((int[]){1}, 1, 1, "");
+  do_test((int[]){1, 2}, 2, 1, "1");
+  do_test((int[]){1, 2}, 2, 2, "2");
   return 0;
 }
