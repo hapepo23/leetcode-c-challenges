@@ -32,6 +32,7 @@ The code I released here into the public domain may appear in third-party projec
 1. [#0011 - Medium - Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/) - Solution: [container_with_most_water.c](https://github.com/hapepo23/leetcode-c-challenges/blob/master/container_with_most_water.c)
 1. [#0014 - Easy - Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/description/) - Solution: [longest_common_prefix.c](https://github.com/hapepo23/leetcode-c-challenges/blob/master/longest_common_prefix.c)
 1. [#0019 - Medium - Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/) - Solution: [remove_nth_node_from_end_of_list.c](https://github.com/hapepo23/leetcode-c-challenges/blob/master/remove_nth_node_from_end_of_list.c)
+1. [#0021 - Easy - Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/description/) - Solution: [merge_two_sorted_lists.c](https://github.com/hapepo23/leetcode-c-challenges/blob/master/merge_two_sorted_lists.c)
 1. [#0026 - Easy - Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/) - Solution: [remove_duplicates_from_sorted_array.c](https://github.com/hapepo23/leetcode-c-challenges/blob/master/remove_duplicates_from_sorted_array.c)
 1. [#0148 - Medium - Sort List](https://leetcode.com/problems/sort-list/description/) - Solution: [sort_list.c](https://github.com/hapepo23/leetcode-c-challenges/blob/master/sort_list.c)
 
