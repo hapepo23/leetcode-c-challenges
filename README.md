@@ -37,6 +37,7 @@ The code I released here into the public domain may appear in third-party projec
 1. [#0021 - Easy - Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/description/) - Solution: [merge_two_sorted_lists.c](https://github.com/hapepo23/leetcode-c-challenges/blob/master/merge_two_sorted_lists.c)
 1. [#0026 - Easy - Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/) - Solution: [remove_duplicates_from_sorted_array.c](https://github.com/hapepo23/leetcode-c-challenges/blob/master/remove_duplicates_from_sorted_array.c)
 1. [#0083 - Easy - Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/) - Solution: [remove_duplicates_from_sorted_list.c](https://github.com/hapepo23/leetcode-c-challenges/blob/master/remove_duplicates_from_sorted_list.c)
+1. [#0088 - Easy - Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/description/) - Solution: [merge_sorted_array.c](https://github.com/hapepo23/leetcode-c-challenges/blob/master/merge_sorted_array.c)
 1. [#0148 - Medium - Sort List](https://leetcode.com/problems/sort-list/description/) - Solution: [sort_list.c](https://github.com/hapepo23/leetcode-c-challenges/blob/master/sort_list.c)
 
 -----
